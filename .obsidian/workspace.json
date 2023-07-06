@@ -4,63 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8499df5dd9fa59ea",
+        "id": "2b966ae147a9a761",
         "type": "tabs",
         "children": [
           {
-            "id": "0e8bca249b8da6ee",
+            "id": "4be399e28498c967",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2023-07-05.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ba0012a3f156c41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kitty.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24714a868dfd85e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Default TERMINAL.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b98d3c81362fc165",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "i3 config.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "i3 config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "i3 config.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "i3 config.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -187,12 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b98d3c81362fc165",
+  "active": "4be399e28498c967",
   "lastOpenFiles": [
+    "daily/2023-07-06.md",
+    "Setting Up PostgreSQL with Docker.md",
+    "PostgreSQL.md",
+    "daily/2023-07-05.md",
+    "Kitty.md",
+    "remove all files except some type or name.md",
     "Default TERMINAL.md",
     "i3 config.md",
-    "Kitty.md",
-    "daily/2023-07-05.md",
     "daily/2023-07-03.md",
     "daily/2023-07-02.md",
     "magic_filter F.md",
