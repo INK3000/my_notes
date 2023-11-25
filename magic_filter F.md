@@ -145,11 +145,12 @@ async def any_digits_handler(message: Message, digits: Match[str]):
 @router.message(F.text.startswith('foo'))
 @router.message(F.content_type.in_({'text', 'sticker'}))
 @router.message(F.text.regexp(r'\d+'))
-```
 
 ...
 
 # Many others cases when you will need to check any of available event attribute
+```
+
 
 
 [[Python]]

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b966ae147a9a761",
+        "id": "983c0ab537c75a04",
         "type": "tabs",
         "children": [
           {
-            "id": "4be399e28498c967",
+            "id": "55c2f1ccd83c3990",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "3643f9ac5a7c855e",
@@ -81,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +121,26 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notes.md"
+              }
+            }
+          },
+          {
+            "id": "9fbe4d7da51340d6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,35 +152,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4be399e28498c967",
+  "active": "ab731a6f8df5cd01",
   "lastOpenFiles": [
-    "daily/2023-07-06.md",
+    "Notes.md",
+    "Install Python on Linux.md",
+    "Python.md",
+    "CLI.md",
+    "[.md",
+    "Update jre-openjdk error.md",
     "Setting Up PostgreSQL with Docker.md",
     "PostgreSQL.md",
-    "daily/2023-07-05.md",
-    "Kitty.md",
-    "remove all files except some type or name.md",
-    "Default TERMINAL.md",
-    "i3 config.md",
-    "daily/2023-07-03.md",
-    "daily/2023-07-02.md",
+    "Одиночка (Singleton).md",
+    "Паттерны проектирования.md",
+    "Паттерн Одиночка (Singleton).md",
+    "Паттерны создания.md",
     "magic_filter F.md",
-    "Telethon - RawMagic.Event.md",
-    "Python Libraries.md",
-    "Telethon.md",
-    "templates/python_library.md",
-    "Python.md",
-    "Terminal.md",
-    "[.md",
-    "templates/daily.md",
-    "How to make any script executable and available in dmenu.md",
-    "2023-07-02.md",
+    "Epson L800.md",
+    "i3 config.md",
+    "Parfume Federico Mahora.md",
+    "daily/2023-09-11.md",
+    "daily/Untitled.md",
+    "daily/2023-08-26.md",
+    "montly/August 2023.md",
+    "daily/2023-08-05.md",
+    "daily/2023-08-04.md",
+    "daily/2023-07-31.md",
+    "daily/2023-08-03.md",
+    "daily/2023-07-07.md",
+    "daily/2023-07-06.md",
+    "montly",
     "daily",
     "templates",
-    "files",
-    "CLI.md",
-    "Linux.md",
-    "Manjaro.md",
-    "dmenu.md"
+    "files"
   ]
 }
