@@ -8,3 +8,5 @@
 9. add to .zshrc `export PATH=/home/ink/.python3.12/bin:$PATH`
 10. `source ~/.zshrc` or `omz reload` 
 11. `python3.12` to start python
+
+[[Linux]]

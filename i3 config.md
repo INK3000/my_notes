@@ -2,8 +2,12 @@
 touch ~/.i3/config
 ```
 
+
+
 ```ini
+
 # i3 config file (v4)
+# 2024-06-15
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
@@ -36,6 +40,7 @@ floating_modifier $mod
 # bindsym $mod+Return exec tilix
 
 bindsym $mod+Return exec i3-sensible-terminal 
+bindsym $mod+Shift+Return exec alacritty
 # bindsym $mod+Return exec alacritty 
 bindsym $mod+Ctrl+Return exec i3-sensible-terminal -e nvim
 
@@ -75,6 +80,8 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec firefox 
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec i3-sensible-terminal -e 'mocp'
+# F5 and F6 are used by resurection (save and restore)
+bindsym $mod+F7 exec i3-sensible-terminal -e 'mc'
 bindsym $mod+Shift+F2 exec start_dbeaver
 bindsym $mod+Shift+F3 exec start_rack
 # bindsym $mod+Shift+F3 exec ranger
@@ -223,6 +230,9 @@ for_window [class="Oblogout"] fullscreen enable
 for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
 for_window [class="Pamac-manager"] floating enable
+for_window [title="Pamac-manager"] floating enable
+for_window [class="Package manager"] floating enable
+for_window [class="Pamac"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
@@ -443,11 +453,6 @@ mode "$mode_gaps_outer" {
 bindsym $mod+Insert exec xautolock -disable; exec notify-send 'autolock disabled'
 bindsym $mod+Delete exec xxautolock -enable; exec notify-send 'autolock enabled'
 
-# set keyboard layout
-# exec --no-startup-id "setxkbmap -layout us,ru -option 'grp:win_space_toggle'"
-
-# i3-resurrect
-set $i3_resurrect i3-resurrect
 
 # Save workspace mode.
 mode "save" {
@@ -492,4 +497,23 @@ mode "restore" {
 }
 
 bindsym $mod+F6 mode "restore"
+
+
+
+# set keyboard layout
+exec --no-startup-id "setxkbmap -layout us,ru -option 'grp:win_space_toggle'"
+
+# i3-resurrect
+set $i3_resurrect i3-resurrect
+
+
+# set screen framerate to 75 Hz
+exec --no-startup-id "xrandr --output VGA-0 --mode 1440x900 --rate 75"
+
 ```
+
+
+
+[[Linux]]
+[[Manjaro]]
+[[i3]]

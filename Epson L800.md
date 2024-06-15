@@ -63,3 +63,6 @@ Now, your USB printer should be added and ready to use on your Unix-like system.
 ```bash
 lpadmin -p l800 -E -v usb://EPSON/L800?serial=504B4E4B3130363323 -m epson-inkjet-printer-l800/EPSON_L800.ppd
 ```
+
+[[Manjaro]]
+[[Linux]]
